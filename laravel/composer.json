@@ -1,0 +1,11 @@
+{
+    "name": "lijianwei/laravel",
+    "description": "study laravel",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "classmap": ["Package"]
+    }
+}
