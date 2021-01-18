@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Illuminate\\Container\\Container' => $baseDir . '/Package/laravel/framework/src/Illuminate/Container/Container.php',
+    'Illuminate\\Contracts\\Container\\BindingResolutionException' => $baseDir . '/Package/laravel/framework/src/Illuminate/Contracts/Container/BindingResolutionException.php',
 );

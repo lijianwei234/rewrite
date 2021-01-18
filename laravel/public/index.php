@@ -6,21 +6,21 @@ class Log
 {
     protected $file;
 
-    public function __construct (File $file)
+    public function __construct (bool $file = true)
     {
         $this->file = $file;
     }
 }
 
-class File
-{
-    protected $sys;
-
-    public function __construct(Sys $sys)
-    {
-        $this->sys = $sys;
-    }
-}
+//class File
+//{
+//    protected $sys;
+//
+//    public function __construct(Sys $sys)
+//    {
+//        $this->sys = $sys;
+//    }
+//}
 
 class Sys
 {
